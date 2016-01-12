@@ -36,6 +36,7 @@ public class BTNavigationDropdownMenu: UIView {
         }
         set(value) {
             self.configuration.menuTitleColor = value
+            self.menuTitle?.textColor = value
         }
     }
     
